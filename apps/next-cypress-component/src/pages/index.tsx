@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { SharedComponents } from '@next-cypress-component/shared-components';
 
 const StyledPage = styled.div`
   .page {
@@ -21,6 +22,7 @@ export function Index() {
               Welcome next-cypress-component 👋
             </h1>
           </div>
+          <SharedComponents/>
 
           <div id="hero" className="rounded">
             <div className="text-container">

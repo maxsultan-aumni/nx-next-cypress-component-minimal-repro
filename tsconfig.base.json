@@ -14,7 +14,16 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@next-cypress-component/shared-components": [
+        "shared-components/src/index.ts"
+      ],
+      "@next-cypress-component/shared-components/server": [
+        "shared-components/src/server.ts"
+      ],
+      "@next-cypress-component/utils": ["utils/src/index.ts"],
+      "@next-cypress-component/utils/server": ["utils/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
