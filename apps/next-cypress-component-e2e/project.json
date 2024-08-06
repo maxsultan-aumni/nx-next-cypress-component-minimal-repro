@@ -1,0 +1,9 @@
+{
+  "name": "next-cypress-component-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/next-cypress-component-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["next-cypress-component"],
+  "// targets": "to see all targets run: nx show project next-cypress-component-e2e --web",
+  "targets": {}
+}
